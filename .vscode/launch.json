@@ -1,0 +1,994 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "BinaryString",
+      "request": "launch",
+      "mainClass": "BinaryString",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "FirstOccurence",
+      "request": "launch",
+      "mainClass": "FirstOccurence",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "SortedbyRecursion",
+      "request": "launch",
+      "mainClass": "SortedbyRecursion",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "SumofNatural",
+      "request": "launch",
+      "mainClass": "SumofNatural",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "Increasingorder",
+      "request": "launch",
+      "mainClass": "Increasingorder",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "PrintinDecreasing",
+      "request": "launch",
+      "mainClass": "PrintinDecreasing",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "FibonacciSerice",
+      "request": "launch",
+      "mainClass": "FibonacciSerice",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "Factorial",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "Odd",
+      "request": "launch",
+      "mainClass": "Odd",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "name": "(gdb) Attach",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "(gdb) Attach",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "(gdb) Bash on Windows Attach",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "processId": "${command:pickRemoteProcess}",
+      "pipeTransport": {
+        "debuggerPath": "/usr/bin/gdb",
+        "pipeProgram": "${env:windir}\\system32\\bash.exe",
+        "pipeArgs": [
+          "-c"
+        ],
+        "pipeCwd": ""
+      },
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "(gdb) Attach",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "(gdb) Bash on Windows Attach",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "processId": "${command:pickRemoteProcess}",
+      "pipeTransport": {
+        "debuggerPath": "/usr/bin/gdb",
+        "pipeProgram": "${env:windir}\\system32\\bash.exe",
+        "pipeArgs": [
+          "-c"
+        ],
+        "pipeCwd": ""
+      },
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "(gdb) Bash on Windows Attach",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "processId": "${command:pickRemoteProcess}",
+      "pipeTransport": {
+        "debuggerPath": "/usr/bin/gdb",
+        "pipeProgram": "${env:windir}\\system32\\bash.exe",
+        "pipeArgs": [
+          "-c"
+        ],
+        "pipeCwd": ""
+      },
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "(gdb) Attach",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "(gdb) Attach",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "type": "java",
+      "name": "BinarryAnd",
+      "request": "launch",
+      "mainClass": "BinarryAnd",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "PrimeinBuffer",
+      "request": "launch",
+      "mainClass": "PrimeinBuffer",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "AnagramString",
+      "request": "launch",
+      "mainClass": "AnagramString",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "LargestString",
+      "request": "launch",
+      "mainClass": "LargestString",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "frequency",
+      "request": "launch",
+      "mainClass": "frequency",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "SubString",
+      "request": "launch",
+      "mainClass": "SubString",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "StringFunction",
+      "request": "launch",
+      "mainClass": "StringFunction",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "Palindrom",
+      "request": "launch",
+      "mainClass": "Palindrom",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "StringPrinter",
+      "request": "launch",
+      "mainClass": "StringPrinter",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "String",
+      "request": "launch",
+      "mainClass": "String",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "Higest",
+      "request": "launch",
+      "mainClass": "Higest",
+      "projectName": "java dsa_664aa56c"
+    },
+    {
+      "type": "java",
+      "name": "Separateodd_even",
+      "request": "launch",
+      "mainClass": "practices.Separateodd_even",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "DescendingOrder",
+      "request": "launch",
+      "mainClass": "codeshubham.practices.DescendingOrder",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "Counttheoccurance",
+      "request": "launch",
+      "mainClass": "codeshubham.practices.Counttheoccurance",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "SizeofArray",
+      "request": "launch",
+      "mainClass": "codeshubham.practices.SizeofArray",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "Sum",
+      "request": "launch",
+      "mainClass": "codeshubham.practices.Sum",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "Recursion",
+      "request": "launch",
+      "mainClass": "codeshubham.Recursion",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "table",
+      "request": "launch",
+      "mainClass": "codeshubham.table",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "RoatedStartedaray",
+      "request": "launch",
+      "mainClass": "codeshubham.RoatedStartedaray",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "Binary_A",
+      "request": "launch",
+      "mainClass": "codeshubham.Binary_A",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "kadanesAlgorithm",
+      "request": "launch",
+      "mainClass": "codeshubham.kadanesAlgorithm",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "MaxSumArray",
+      "request": "launch",
+      "mainClass": "codeshubham.MaxSumArray",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "PrifixSum",
+      "request": "launch",
+      "mainClass": "codeshubham.PrifixSum",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "linklist2",
+      "request": "launch",
+      "mainClass": "linklist2",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "Linklist1",
+      "request": "launch",
+      "mainClass": "Linklist1",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "Prime",
+      "request": "launch",
+      "mainClass": "Prime",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "Reverse",
+      "request": "launch",
+      "mainClass": "Reverse",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "mocktest2",
+      "request": "launch",
+      "mainClass": "mocktest2",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "Mocktest1",
+      "request": "launch",
+      "mainClass": "Mocktest1",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "Rectangle",
+      "request": "launch",
+      "mainClass": "codeshubham.Rectangle",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "Rctangle",
+      "request": "launch",
+      "mainClass": "codeshubham.Rctangle",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "Armethic",
+      "request": "launch",
+      "mainClass": "codeshubham.Armethic",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "Example",
+      "request": "launch",
+      "mainClass": "codeshubham.Example",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "nested",
+      "request": "launch",
+      "mainClass": "codeshubham.nested",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "codeshubham.BubbleSort",
+      "projectName": "Java_3df404fa"
+    },
+    {
+      "type": "java",
+      "name": "pratice",
+      "request": "launch",
+      "mainClass": "com.tiwari.pratice",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "com.tiwari.BubbleSort",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "fuction",
+      "request": "launch",
+      "mainClass": "com.tiwari.fuction",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Greaterno",
+      "request": "launch",
+      "mainClass": "com.tiwari.Greaterno",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "InsertationSort",
+      "request": "launch",
+      "mainClass": "InsertationSort",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Slectionsort",
+      "request": "launch",
+      "mainClass": "Slectionsort",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "BubbleSort",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "get",
+      "request": "launch",
+      "mainClass": "get",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Display",
+      "request": "launch",
+      "mainClass": "Display",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "b",
+      "request": "launch",
+      "mainClass": "b",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Print",
+      "request": "launch",
+      "mainClass": "Print",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "demo",
+      "request": "launch",
+      "mainClass": "demo",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Array_of_5_float",
+      "request": "launch",
+      "mainClass": "Array_of_5_float",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "RockPaperScissors",
+      "request": "launch",
+      "mainClass": "RockPaperScissors",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Detect_integer",
+      "request": "launch",
+      "mainClass": "Detect_integer",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Kilimerter_to_miles",
+      "request": "launch",
+      "mainClass": "Kilimerter_to_miles",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "String_greet",
+      "request": "launch",
+      "mainClass": "String_greet",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Calculate_percentage",
+      "request": "launch",
+      "mainClass": "Calculate_percentage",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Halfpyarmid",
+      "request": "launch",
+      "mainClass": "Halfpyarmid",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "calculator",
+      "request": "launch",
+      "mainClass": "calculator",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "string",
+      "request": "launch",
+      "mainClass": "string",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Twoarray",
+      "request": "launch",
+      "mainClass": "Twoarray",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch strngs",
+      "request": "launch",
+      "mainClass": "strngs",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoDArray",
+      "request": "launch",
+      "mainClass": "TwoDArray",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch raisedpower",
+      "request": "launch",
+      "mainClass": "raisedpower",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch PNZ",
+      "request": "launch",
+      "mainClass": "PNZ",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch infiniteLoop",
+      "request": "launch",
+      "mainClass": "infiniteLoop",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch eligibleOfVote",
+      "request": "launch",
+      "mainClass": "eligibleOfVote",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch circumfarenceOfCircle",
+      "request": "launch",
+      "mainClass": "circumfarenceOfCircle",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Greaterno",
+      "request": "launch",
+      "mainClass": "Greaterno",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch sumOddno",
+      "request": "launch",
+      "mainClass": "sumOddno",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch average",
+      "request": "launch",
+      "mainClass": "average",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch minimumandmaximumArray",
+      "request": "launch",
+      "mainClass": "minimumandmaximumArray",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch arrayname",
+      "request": "launch",
+      "mainClass": "arrayname",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch arrayindex",
+      "request": "launch",
+      "mainClass": "arrayindex",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array",
+      "request": "launch",
+      "mainClass": "Array",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch table",
+      "request": "launch",
+      "mainClass": "table",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch check",
+      "request": "launch",
+      "mainClass": "check",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch factorial",
+      "request": "launch",
+      "mainClass": "factorial",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch multiplication",
+      "request": "launch",
+      "mainClass": "multiplication",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch addation",
+      "request": "launch",
+      "mainClass": "addation",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch fuction",
+      "request": "launch",
+      "mainClass": "fuction",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch butterflypattern",
+      "request": "launch",
+      "mainClass": "butterflypattern",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch butterfly",
+      "request": "launch",
+      "mainClass": "butterfly",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch zeroandonetriangle",
+      "request": "launch",
+      "mainClass": "zeroandonetriangle",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch floydstriangle",
+      "request": "launch",
+      "mainClass": "floydstriangle",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch invertedhalfpyramidwithnumber",
+      "request": "launch",
+      "mainClass": "invertedhalfpyramidwithnumber",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch halfpyramidwithnumber",
+      "request": "launch",
+      "mainClass": "halfpyramidwithnumber",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch invertedhalfpyramid",
+      "request": "launch",
+      "mainClass": "invertedhalfpyramid",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch inversetriangle",
+      "request": "launch",
+      "mainClass": "inversetriangle",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch righttriangle",
+      "request": "launch",
+      "mainClass": "righttriangle",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch hollowrectangle",
+      "request": "launch",
+      "mainClass": "hollowrectangle",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch solidpattern",
+      "request": "launch",
+      "mainClass": "solidpattern",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch loop",
+      "request": "launch",
+      "mainClass": "loop",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch OddandEven",
+      "request": "launch",
+      "mainClass": "OddandEven",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch teenage",
+      "request": "launch",
+      "mainClass": "teenage",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch threelargestno",
+      "request": "launch",
+      "mainClass": "threelargestno",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch twolargestno",
+      "request": "launch",
+      "mainClass": "twolargestno",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch two",
+      "request": "launch",
+      "mainClass": "two",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch greetingclass",
+      "request": "launch",
+      "mainClass": "greetingclass",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch conditionalclass",
+      "request": "launch",
+      "mainClass": "conditionalclass",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch sumclass",
+      "request": "launch",
+      "mainClass": "sumclass",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch patternclass",
+      "request": "launch",
+      "mainClass": "patternclass",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch calculateclass",
+      "request": "launch",
+      "mainClass": "calculateclass",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "type": "java",
+      "name": "Launch firstclass",
+      "request": "launch",
+      "mainClass": "firstclass",
+      "projectName": "java program_c66dd13e"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Shubh/OneDrive/Desktop/program in C++",
+      "program": "c:/Users/Shubh/OneDrive/Desktop/program in C++/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "C/C++: cpp.exe build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: cpp.exe build active file"
+    }
+  ]
+}
